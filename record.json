@@ -1,0 +1,9 @@
+{
+    "rootUrl": "https://sr.nssh.ntpc.edu.tw/online/",
+    "informationUrl": "https://sr.nssh.ntpc.edu.tw/online/information.asp",
+    "loginUrl": "https://sr.nssh.ntpc.edu.tw/online/login.asp",
+    "selectExamUrl": "https://sr.nssh.ntpc.edu.tw/online/selection_student/student_subjects_number.asp?action=open_window_frame",
+
+    "userId": "311371",
+    "userPwd": "F132628207"
+}
