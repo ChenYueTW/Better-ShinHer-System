@@ -3,6 +3,8 @@
     "informationUrl": "https://sr.nssh.ntpc.edu.tw/online/information.asp",
     "loginUrl": "https://sr.nssh.ntpc.edu.tw/online/login.asp",
     "selectExamUrl": "https://sr.nssh.ntpc.edu.tw/online/selection_student/student_subjects_number.asp?action=open_window_frame",
+    "eventUrl": "https://sr.nssh.ntpc.edu.tw/online/selection_student/",
+    "timetableUrl": "https://sr.nssh.ntpc.edu.tw/online/student/",
 
     "userId": "311371",
     "userPwd": "F132628207"
