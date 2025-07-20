@@ -13,7 +13,7 @@ record = json.load(open("../record.json"))
 session = requests.Session()
 
 model = CaptchaCNN()
-model.load_state_dict(torch.load("outputs/run_1/captcha_cnn.pth"))
+model.load_state_dict(torch.load("outputs/run_2/captcha_cnn.pth"))
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",

@@ -12,7 +12,7 @@ session = requests.Session()
 ocr = ddddocr.DdddOcr()
 ocr.set_ranges("0123456789")
 
-SAVE_DIR = "data/train"
+SAVE_DIR = "data/vaild"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 headers = {
