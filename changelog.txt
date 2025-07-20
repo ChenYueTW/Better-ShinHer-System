@@ -1,0 +1,17 @@
+v0.1
+1. Can login online system
+2. Can read exam list
+
+v0.2
+1. Add absentation module
+2. Add curriculum module
+3. Add get exam module
+4. Add moral module
+5. System rewrite
+
+v0.3
+1. Train some module but acc is veryyyy low
+2. Add 1800 png to prepare train
+3. Use DDDDocr to add data faster
+4. Add predict
+5. Add verify_image to ensure png and label is correct

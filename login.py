@@ -5,7 +5,13 @@ import ddddocr
 from io import BytesIO
 from PIL import Image
 
-def login():
+session = None
+
+def getSession():
+    global session
+    if session is not None:
+        return session
+    
     record = json.load(open("record.json"))
     session = requests.Session()
     
@@ -42,5 +48,7 @@ def login():
     login_response = session.post(record["loginUrl"], data=payload, headers=headers)
     if "登入失敗" in login_response.text:
         raise Exception("登入失敗，請檢查帳號密碼或驗證碼")
+    else:
+        print("Login success!")
 
     return session
