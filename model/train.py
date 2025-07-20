@@ -81,8 +81,9 @@ for epoch in range(epochs):
     model.eval()
     val_correct = 0
     val_total = 0
+    val_loop = tqdm.tqdm(val_loader, desc=f"Validating [{epoch + 1/epochs}]")
     with torch.no_grad():
-        for val_images, val_labels in val_loader:
+        for val_images, val_labels in val_loop:
             val_images, val_labels = val_images.to(device), val_labels.to(device)
             val_outputs = model(val_images)
             val_preds = torch.argmax(val_outputs, dim=2)
