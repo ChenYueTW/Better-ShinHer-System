@@ -21,3 +21,6 @@ v0.3.1
 
 v0.3.2
 1. Convert module to onnx
+
+v0.4
+1. Optimize onnx model and rewrite login verify code part
