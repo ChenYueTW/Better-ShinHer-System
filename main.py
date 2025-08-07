@@ -8,4 +8,6 @@ import curriculum
 
 session = login.getSession()
 
-print(curriculum.get_class_timetable())
+for i in exam.get_exam_list():
+    print(i)
+# print(exam.get)

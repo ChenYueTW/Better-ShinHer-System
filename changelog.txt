@@ -24,3 +24,8 @@ v0.3.2
 
 v0.4
 1. Optimize onnx model and rewrite login verify code part
+
+v0.5
+1. Let it can use api post info
+2. Update README
+3. Fix some bug

@@ -57,4 +57,4 @@ def getSession(max_retries=3):
         except Exception as e:
             print(f"Error: {e}")
 
-    return session
+    return None
